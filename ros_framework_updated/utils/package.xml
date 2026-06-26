@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros_framework</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="achille.chiuchiarelli@gmail.com">user</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>open3d</depend>
+  <depend>numpy</depend>
+  <depend>math</depend>
+  <depend>torch</depend>
+  <depend>sys</depend>
+  <depend>os</depend>
+  <depend>cv2</depend>
+  <depend>collections</depend>
+  <depend>albumentations</depend>
+  <depend>sensor_msgs</depend>
+  <depend>sensor_msgs_py</depend>
+  <depend>geometry_msgs</depend>
+  <depend>navigation2</depend>
+  <depend>message_filters</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>nav_msgs</depend>
+
+
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
