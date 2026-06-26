@@ -1,22 +1,19 @@
-README:
+# README of ROS2 framework for Terrain Traversability Analysis:
 
-nodes:
+## Nodes:
 
-- publisher_node.py--> publishes images and point clouds
-- static transformer --> camera odom transformation
+** - publisher_node.py: ** Publishes images and point clouds
+** - static transformer: ** Camera odom transformation
 
-- appearance_based_node.py--> app based approach, publishes wf cmap and grid correspondance 
-- geometry_based.py--> geometry based approach, publishes cf cmap
+** - appearance_based_node.py: ** app based approach, publishes wf cmap and grid correspondance 
+** - geometry_based.py: ** geometry based approach, publishes cf cmap
 
-- filter2.py--> synchronizer
-- final_node.py--> creates wf app cmap, interpolates it and creates and publishes final cmap
-- map_converter --> creates OccupancyGrid message from costmap2 message
+** - filter2.py: ** synchronizer filter
+** - final_node.py: ** creates wf app cmap, interpolates it and creates and publishes final cmap
+** - map_converter: ** creates OccupancyGrid message from costmap2 message
 
-- framework_launch --> launch file
+** - framework_launch --> launch file
 
-NB:
-checkpoints files for the neural networks are missing
-
-utils:
+## Utils:
 
 utils functions and setup.py and package.xml
